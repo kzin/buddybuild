@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func crash(_ sender: Any) {
-        fatalError()
+        [0][1]
     }
     
     override func didReceiveMemoryWarning() {
