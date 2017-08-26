@@ -1,0 +1,19 @@
+opt_in_rules:
+  force_unwrapping
+  switch_case_on_newline
+  redundant_nil_coalescing
+  operator_usage_whitespace
+  explicit_init
+  closure_spacing
+
+disabled_rules:
+  - trailing_newline
+  - trailing_whitespace
+  - empty_count
+
+force_unwrapping: error
+line_length: 120
+
+excluded:
+  - Pods
+  - buddybuildTests

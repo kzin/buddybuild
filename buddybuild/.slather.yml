@@ -1,0 +1,10 @@
+# .slather.yml
+
+coverage_service: html
+xcodeproj: buddybuild.xcodeproj
+workspace: buddybuild.xcworkspace
+scheme: buddybuild
+output_directory: html
+ignore:
+    - ../*
+    - Pods/*
