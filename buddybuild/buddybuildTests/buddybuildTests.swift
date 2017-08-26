@@ -26,7 +26,7 @@ class buddybuildTests: QuickSpec {
             }
             
             it("should have a cool layout") {
-                expect(viewController.view) == recordSnapshot()
+                expect(viewController.view) == snapshot()
             }
         }
     }
