@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19984EC7933677BEE3023006 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CD1D07009BDE5D63BBD00A /* CoreVideo.framework */; };
+		3B3B7541EA2F969E6B31E2CD /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1642A858A76DEC50935A3A2 /* AssetsLibrary.framework */; };
+		4C7153CA0B91C8FD94A6E599 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C067281C39031206C0045C /* CoreText.framework */; };
 		509DDC5804508D127CA4B247 /* Pods_buddybuild_buddybuildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B134EB7A4AAB32711F2C31 /* Pods_buddybuild_buddybuildTests.framework */; };
+		5ADF3A49FE40A6D6C4153724 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292A2B5C31A193E393036748 /* QuartzCore.framework */; };
+		6A6029F592118C523D43BF49 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D732D2D123B33C9D5FE16733 /* CoreTelephony.framework */; };
+		6AB50A7EAAD5ACBAB1249326 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1ECA888034B78070E105B17 /* CoreMedia.framework */; };
 		9377D6B81F5201BF00F3BD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377D6B71F5201BF00F3BD87 /* AppDelegate.swift */; };
 		9377D6BA1F5201BF00F3BD87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377D6B91F5201BF00F3BD87 /* ViewController.swift */; };
 		9377D6BD1F5201BF00F3BD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9377D6BB1F5201BF00F3BD87 /* Main.storyboard */; };
 		9377D6BF1F5201BF00F3BD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9377D6BE1F5201BF00F3BD87 /* Assets.xcassets */; };
 		9377D6C21F5201BF00F3BD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9377D6C01F5201BF00F3BD87 /* LaunchScreen.storyboard */; };
 		9377D6CD1F5201BF00F3BD87 /* buddybuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9377D6CC1F5201BF00F3BD87 /* buddybuildTests.swift */; };
+		9CA17DEEC224C76DF03B7DB7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EE63FCCF52C41753EF8196 /* SystemConfiguration.framework */; };
 		DB80DCEAAD32CECB78A836A5 /* Pods_buddybuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE584E82139A644B77D5FA /* Pods_buddybuild.framework */; };
+		DF4499F8A8F113676F1268E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8FBE66978A749B9E72B9BC /* AVFoundation.framework */; };
+		F5F96C15BDF28252F372EC9D /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBDF18CBA00E6863E54C9D5 /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0530E0C29F0AA2A716585183 /* Pods-buddybuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuild.release.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuild/Pods-buddybuild.release.xcconfig"; sourceTree = "<group>"; };
+		292A2B5C31A193E393036748 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E3E5F059DC05C5DD26F508F /* Pods-buddybuildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuildTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuildTests/Pods-buddybuildTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56053A15C14AB1839CC1FF4B /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		5D7583DF6CF1BB1795C3B8D3 /* Pods-buddybuild-buddybuildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuild-buddybuildTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuild-buddybuildTests/Pods-buddybuild-buddybuildTests.debug.xcconfig"; sourceTree = "<group>"; };
 		663429CF387D0C2684C70088 /* Pods_buddybuildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buddybuildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8FBE66978A749B9E72B9BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		80EE63FCCF52C41753EF8196 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9377D6B41F5201BF00F3BD87 /* buddybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buddybuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9377D6B71F5201BF00F3BD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9377D6B91F5201BF00F3BD87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +55,17 @@
 		9377D6C81F5201BF00F3BD87 /* buddybuildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buddybuildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9377D6CC1F5201BF00F3BD87 /* buddybuildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buddybuildTests.swift; sourceTree = "<group>"; };
 		9377D6CE1F5201BF00F3BD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBDF18CBA00E6863E54C9D5 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		AC08C1C07407A32C9FB5D93B /* Pods-buddybuild-buddybuildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuild-buddybuildTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuild-buddybuildTests/Pods-buddybuild-buddybuildTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0C067281C39031206C0045C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		BB2F0B6155D4F1B26429D8E1 /* Pods-buddybuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuild.debug.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuild/Pods-buddybuild.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B134EB7A4AAB32711F2C31 /* Pods_buddybuild_buddybuildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buddybuild_buddybuildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1642A858A76DEC50935A3A2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D5CD1D07009BDE5D63BBD00A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D732D2D123B33C9D5FE16733 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		E7161058250B641EFF47FBE9 /* Pods-buddybuildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buddybuildTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-buddybuildTests/Pods-buddybuildTests.release.xcconfig"; sourceTree = "<group>"; };
 		EFFE584E82139A644B77D5FA /* Pods_buddybuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buddybuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1ECA888034B78070E105B17 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +74,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB80DCEAAD32CECB78A836A5 /* Pods_buddybuild.framework in Frameworks */,
+				F5F96C15BDF28252F372EC9D /* BuddyBuildSDK.framework in Frameworks */,
+				3B3B7541EA2F969E6B31E2CD /* AssetsLibrary.framework in Frameworks */,
+				4C7153CA0B91C8FD94A6E599 /* CoreText.framework in Frameworks */,
+				6A6029F592118C523D43BF49 /* CoreTelephony.framework in Frameworks */,
+				9CA17DEEC224C76DF03B7DB7 /* SystemConfiguration.framework in Frameworks */,
+				5ADF3A49FE40A6D6C4153724 /* QuartzCore.framework in Frameworks */,
+				DF4499F8A8F113676F1268E1 /* AVFoundation.framework in Frameworks */,
+				6AB50A7EAAD5ACBAB1249326 /* CoreMedia.framework in Frameworks */,
+				19984EC7933677BEE3023006 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +103,15 @@
 				EFFE584E82139A644B77D5FA /* Pods_buddybuild.framework */,
 				663429CF387D0C2684C70088 /* Pods_buddybuildTests.framework */,
 				C2B134EB7A4AAB32711F2C31 /* Pods_buddybuild_buddybuildTests.framework */,
+				9FBDF18CBA00E6863E54C9D5 /* BuddyBuildSDK.framework */,
+				D1642A858A76DEC50935A3A2 /* AssetsLibrary.framework */,
+				B0C067281C39031206C0045C /* CoreText.framework */,
+				D732D2D123B33C9D5FE16733 /* CoreTelephony.framework */,
+				80EE63FCCF52C41753EF8196 /* SystemConfiguration.framework */,
+				292A2B5C31A193E393036748 /* QuartzCore.framework */,
+				6E8FBE66978A749B9E72B9BC /* AVFoundation.framework */,
+				F1ECA888034B78070E105B17 /* CoreMedia.framework */,
+				D5CD1D07009BDE5D63BBD00A /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +137,7 @@
 				9377D6B51F5201BF00F3BD87 /* Products */,
 				79063EC1DC966037E028DF1A /* Pods */,
 				740DEEB1A3E18186BC45283C /* Frameworks */,
+				56053A15C14AB1839CC1FF4B /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -509,10 +547,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DK2FD42JNK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = buddybuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.buddybuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -523,10 +566,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DK2FD42JNK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = buddybuild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.buddybuild;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
